@@ -34,7 +34,7 @@ import sys
 target='TRIAE_CS42_1BL'
 maker='>TRIAE'
 inputfile='input.txt'
-outputfile='output.txt'
+outputfile='111.txt'
 #-------------------------------------
 
 path=sys.path[0]
@@ -51,7 +51,7 @@ while line:
         while line.find(maker)==-1 and line:
             f1.write(line)
             line = f.readline()
-		continue
+        continue
     
     line= f.readline()
     
