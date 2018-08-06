@@ -29,7 +29,7 @@ outputfile：
 """
 
 import sys
-import os
+
 #-------------需要设置的参数----------
 target='TRIAE_CS42_1BL'
 maker='>TRIAE'
@@ -37,7 +37,7 @@ inputfile='input.txt'
 outputfile='output.txt'
 #-------------------------------------
 
-path=os.getcwd()
+path=sys.path[0]
 f = open(path+'\\'+inputfile,"r")
 f1 = open(path+'\\'+outputfile,"w")
 line = f.readline()
